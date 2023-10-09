@@ -1,5 +1,0 @@
-add_test( PIDTest.test_compute_kp [==[/home/dawn/808X/Week 4/Test-Driven-Development-For-Robotics/build/test/cpp-test]==] [==[--gtest_filter=PIDTest.test_compute_kp]==] --gtest_also_run_disabled_tests)
-set_tests_properties( PIDTest.test_compute_kp PROPERTIES WORKING_DIRECTORY [==[/home/dawn/808X/Week 4/Test-Driven-Development-For-Robotics/build/test]==])
-add_test( PIDTest.test_dt [==[/home/dawn/808X/Week 4/Test-Driven-Development-For-Robotics/build/test/cpp-test]==] [==[--gtest_filter=PIDTest.test_dt]==] --gtest_also_run_disabled_tests)
-set_tests_properties( PIDTest.test_dt PROPERTIES WORKING_DIRECTORY [==[/home/dawn/808X/Week 4/Test-Driven-Development-For-Robotics/build/test]==])
-set( cpp-test_TESTS PIDTest.test_compute_kp PIDTest.test_dt)
