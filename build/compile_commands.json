@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/sas/Week4/build/libs/lib1",
+  "command": "/usr/bin/c++  -I/home/sas/Week4/libs/lib1/.  -g --coverage -fprofile-abs-path -g -std=gnu++14 -o CMakeFiles/myLib1.dir/src.cpp.o -c /home/sas/Week4/libs/lib1/src.cpp",
+  "file": "/home/sas/Week4/libs/lib1/src.cpp"
+},
+{
+  "directory": "/home/sas/Week4/build/libs/lib2",
+  "command": "/usr/bin/c++  -I/home/sas/Week4/libs/lib2/.  -g --coverage -fprofile-abs-path -g -std=gnu++14 -o CMakeFiles/myLib2.dir/src.cpp.o -c /home/sas/Week4/libs/lib2/src.cpp",
+  "file": "/home/sas/Week4/libs/lib2/src.cpp"
+},
+{
+  "directory": "/home/sas/Week4/build/app",
+  "command": "/usr/bin/c++  -I/home/sas/Week4/include -I/home/sas/Week4/libs/lib1/. -I/home/sas/Week4/libs/lib2/.  -g --coverage -fprofile-abs-path -g -std=gnu++14 -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/sas/Week4/app/main.cpp",
+  "file": "/home/sas/Week4/app/main.cpp"
+},
+{
+  "directory": "/home/sas/Week4/build/test",
+  "command": "/usr/bin/c++  -I/home/sas/Week4/include -I/home/sas/Week4/libs/lib1/. -I/home/sas/Week4/libs/lib2/. -isystem /home/sas/Week4/build/_deps/googletest-src/googletest/include -isystem /home/sas/Week4/build/_deps/googletest-src/googletest  -g --coverage -fprofile-abs-path -g -std=gnu++14 -o CMakeFiles/cpp-test.dir/main.cpp.o -c /home/sas/Week4/test/main.cpp",
+  "file": "/home/sas/Week4/test/main.cpp"
+},
+{
+  "directory": "/home/sas/Week4/build/test",
+  "command": "/usr/bin/c++  -I/home/sas/Week4/include -I/home/sas/Week4/libs/lib1/. -I/home/sas/Week4/libs/lib2/. -isystem /home/sas/Week4/build/_deps/googletest-src/googletest/include -isystem /home/sas/Week4/build/_deps/googletest-src/googletest  -g --coverage -fprofile-abs-path -g -std=gnu++14 -o CMakeFiles/cpp-test.dir/test.cpp.o -c /home/sas/Week4/test/test.cpp",
+  "file": "/home/sas/Week4/test/test.cpp"
+}
+]
