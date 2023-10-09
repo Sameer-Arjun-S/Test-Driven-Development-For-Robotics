@@ -1,15 +1,30 @@
+/**
+ * @file test.cpp
+ * @author Driver: Sameer Arjun S (ssarjun@umd.edu); Navigator: Darshit Desai (darshit@umd.edu)
+ * @brief 
+ * @version 0.1
+ * @date 2023-10-09
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include <gtest/gtest.h>
-#include "lib1.hpp"
-#include "lib2.hpp"
+#include <math.h>
+#include <stdio.h>
+#include <memory>
+#include "pid_controller.hpp"
 
-TEST(dummy_test, this_should_pass) {
-  EXPECT_EQ(1, 1);
+pid_controller control(2, 0, 0, 0.1);
+/**
+*@brief Test Compute Function for a pure P controller
+*/
+TEST(PIDTest, test_compute_kp) {
+    EXPECT_NEAR(control.compute(5.0, 7.0), -4.0, 0.0001);
 }
 
-TEST(dummy_test, this_should_pass_too) {
-  EXPECT_EQ(my_function1(3), 3);
-}
-
-TEST(dummy_test, this_will_fail) {
-  EXPECT_EQ(my_function2(3.2), 3.2);
+/**
+*@brief Test to check if dt is 0
+*/
+TEST(PIDTest, test_dt) {
+    EXPECT_GT(control.returndt(), 0);
 }
