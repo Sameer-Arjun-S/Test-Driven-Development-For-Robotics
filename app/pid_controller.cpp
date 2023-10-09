@@ -1,7 +1,7 @@
 /**
  * @file pid_controller.cpp
  * @author Driver: Sameer Arjun S (ssarjun@umd.edu); Navigator: Darshit Desai (darshit@umd.edu)
- * @brief 
+ * @brief This is the class for the PID controller
  * @version 0.1
  * @date 2023-10-09
  * 
