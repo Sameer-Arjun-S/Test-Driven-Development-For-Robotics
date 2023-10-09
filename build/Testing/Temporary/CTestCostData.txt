@@ -1,5 +1,3 @@
-dummy_test.this_should_pass 1 0.00504296
-dummy_test.this_should_pass_too 1 0.00564471
-dummy_test.this_will_fail 0 0
+PIDTest.test_compute_kp 1 0.00170026
+PIDTest.test_dt 1 0.00186565
 ---
-dummy_test.this_will_fail

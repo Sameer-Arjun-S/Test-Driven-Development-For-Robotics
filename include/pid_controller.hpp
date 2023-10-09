@@ -1,12 +1,13 @@
 /**
  * @file pid_controller.hpp
- * @author Driver: Sameer Arjun S (ssarjun@umd.edu); Navigator: Darshit Desai (darshit@umd.edu)
+ * @author Driver: Sameer Arjun S (ssarjun@umd.edu); Navigator: Darshit Desai
+ * (darshit@umd.edu)
  * @brief Implementation of PID controller
  * @version 0.1
  * @date 2023-10-09
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 
 #ifndef INCLUDE_PID_CONTROLLER_HPP_
@@ -37,14 +38,15 @@ class pid_controller {
    * @brief Constructor to initialize  with user defined values
    *
    * @param1 Kp is the proportional gain
-   * @param1 Kd is the derivative gain 
-   * @param1 Ki is the integral gain 
+   * @param1 Kd is the derivative gain
+   * @param1 Ki is the integral gain
    * @param1 dt is the sampling time
    *
    */
   pid_controller(double Kp, double Ki, double Kd, double dt);
   /**
-   * @brief This method computes the new velocity using current and reference velocities
+   * @brief This method computes the new velocity using current and reference
+   * velocities
    *
    * @Param1 referece_vel is the target velocity of the system
    * @param2 current_vel is the current velocity

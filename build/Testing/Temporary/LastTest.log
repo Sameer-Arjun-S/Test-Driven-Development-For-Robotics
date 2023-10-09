@@ -1,91 +1,57 @@
-Start testing: Oct 09 12:19 EDT
+Start testing: Oct 09 19:39 EDT
 ----------------------------------------------------------
-1/3 Testing: dummy_test.this_should_pass
-1/3 Test: dummy_test.this_should_pass
-Command: "/home/sas/Week4/build/test/cpp-test" "--gtest_filter=dummy_test.this_should_pass" "--gtest_also_run_disabled_tests"
-Directory: /home/sas/Week4/build/test
-"dummy_test.this_should_pass" start time: Oct 09 12:19 EDT
+1/2 Testing: PIDTest.test_compute_kp
+1/2 Test: PIDTest.test_compute_kp
+Command: "/home/dawn/808X/Week 4/Test-Driven-Development-For-Robotics/build/test/cpp-test" "--gtest_filter=PIDTest.test_compute_kp" "--gtest_also_run_disabled_tests"
+Directory: /home/dawn/808X/Week 4/Test-Driven-Development-For-Robotics/build/test
+"PIDTest.test_compute_kp" start time: Oct 09 19:39 EDT
 Output:
 ----------------------------------------------------------
-Note: Google Test filter = dummy_test.this_should_pass
+The inputs from the user are Kp:2 Kd:0 Ki:0 dt:0.1
+Note: Google Test filter = PIDTest.test_compute_kp
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from dummy_test
-[ RUN      ] dummy_test.this_should_pass
-[       OK ] dummy_test.this_should_pass (0 ms)
-[----------] 1 test from dummy_test (0 ms total)
+[----------] 1 test from PIDTest
+[ RUN      ] PIDTest.test_compute_kp
+[       OK ] PIDTest.test_compute_kp (0 ms)
+[----------] 1 test from PIDTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"dummy_test.this_should_pass" end time: Oct 09 12:19 EDT
-"dummy_test.this_should_pass" time elapsed: 00:00:00
+"PIDTest.test_compute_kp" end time: Oct 09 19:39 EDT
+"PIDTest.test_compute_kp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/3 Testing: dummy_test.this_should_pass_too
-2/3 Test: dummy_test.this_should_pass_too
-Command: "/home/sas/Week4/build/test/cpp-test" "--gtest_filter=dummy_test.this_should_pass_too" "--gtest_also_run_disabled_tests"
-Directory: /home/sas/Week4/build/test
-"dummy_test.this_should_pass_too" start time: Oct 09 12:19 EDT
+2/2 Testing: PIDTest.test_dt
+2/2 Test: PIDTest.test_dt
+Command: "/home/dawn/808X/Week 4/Test-Driven-Development-For-Robotics/build/test/cpp-test" "--gtest_filter=PIDTest.test_dt" "--gtest_also_run_disabled_tests"
+Directory: /home/dawn/808X/Week 4/Test-Driven-Development-For-Robotics/build/test
+"PIDTest.test_dt" start time: Oct 09 19:39 EDT
 Output:
 ----------------------------------------------------------
-Note: Google Test filter = dummy_test.this_should_pass_too
+The inputs from the user are Kp:2 Kd:0 Ki:0 dt:0.1
+Note: Google Test filter = PIDTest.test_dt
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from dummy_test
-[ RUN      ] dummy_test.this_should_pass_too
-[       OK ] dummy_test.this_should_pass_too (0 ms)
-[----------] 1 test from dummy_test (0 ms total)
+[----------] 1 test from PIDTest
+[ RUN      ] PIDTest.test_dt
+[       OK ] PIDTest.test_dt (0 ms)
+[----------] 1 test from PIDTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"dummy_test.this_should_pass_too" end time: Oct 09 12:19 EDT
-"dummy_test.this_should_pass_too" time elapsed: 00:00:00
+"PIDTest.test_dt" end time: Oct 09 19:39 EDT
+"PIDTest.test_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/3 Testing: dummy_test.this_will_fail
-3/3 Test: dummy_test.this_will_fail
-Command: "/home/sas/Week4/build/test/cpp-test" "--gtest_filter=dummy_test.this_will_fail" "--gtest_also_run_disabled_tests"
-Directory: /home/sas/Week4/build/test
-"dummy_test.this_will_fail" start time: Oct 09 12:19 EDT
-Output:
-----------------------------------------------------------
-Note: Google Test filter = dummy_test.this_will_fail
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from dummy_test
-[ RUN      ] dummy_test.this_will_fail
-/home/sas/Week4/test/test.cpp:14: Failure
-Expected equality of these values:
-  my_function2(3.2)
-    Which is: 3.84000015
-  3.2
-
-[  FAILED  ] dummy_test.this_will_fail (0 ms)
-[----------] 1 test from dummy_test (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] dummy_test.this_will_fail
-
- 1 FAILED TEST
-<end of output>
-Test time =   0.01 sec
-----------------------------------------------------------
-Test Failed.
-"dummy_test.this_will_fail" end time: Oct 09 12:19 EDT
-"dummy_test.this_will_fail" time elapsed: 00:00:00
-----------------------------------------------------------
-
-End testing: Oct 09 12:19 EDT
+End testing: Oct 09 19:39 EDT
