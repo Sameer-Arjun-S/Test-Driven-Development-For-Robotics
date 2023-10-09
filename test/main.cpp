@@ -1,11 +1,17 @@
+/**
+ * @file main.cpp
+ * @author Driver: Sameer Arjun S (ssarjun@umd.edu); Navigator: Darshit Desai
+ * @author Driver: Aaqib Barodawala (abarodaw@umd.edu); Navigator: Sai Teja Gilukara (saitejag@umd.edu) 
+ * @brief This is the main.cpp file of test
+ * @version 0.1
+ * @date 2023-10-09
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include <gtest/gtest.h>
-#include "lib.hpp"
-#include "pid_controller.hpp"
+#include "../include/pid_controller.hpp"
 
-void function_not_used() {
-  dummy();
-  //int notUsed = my_function1(3);
-}
 
 int main(int argc, char** argv) {
   ::testing::InitGoogleTest(&argc, argv);

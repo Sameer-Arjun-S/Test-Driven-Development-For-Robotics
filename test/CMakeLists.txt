@@ -3,7 +3,7 @@ add_executable(cpp-test
   # list of source cpp files:
   main.cpp
   test.cpp
-  pid_controller.cpp
+  ../app/pid_controller.cpp
   )
 
 # Any include directories needed to build this target.
