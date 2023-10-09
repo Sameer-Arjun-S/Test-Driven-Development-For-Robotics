@@ -1,6 +1,7 @@
 # Test Driven Development
 ![CICD Workflow status](https://github.com/Sameer-Arjun-S/Test-Driven-Development-For-Robotics/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg)
-[![codecov](https://app.codecov.io/gh/Sameer-Arjun-S/Test-Driven-Development-For-Robotics/branch/main/graph/badge.svg)](https://codecov.io/gh/gh/Sameer-Arjun-S/Test-Driven-Development-For-Robotics)
+[![codecov](https://codecov.io/gh/Sameer-Arjun-S/Test-Driven-Development-For-Robotics/branch/main/graph/badge.svg)](https://codecov.io/gh/gh/Sameer-Arjun-S/Test-Driven-Development-For-Robotics)  
+
 Authors:
  Driver: Sameer-Arjun-S
  Navigator: Darshit-Desai
