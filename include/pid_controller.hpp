@@ -24,10 +24,10 @@
  */
 class pid_controller {
  private:
-  double Kp = 1.0;
-  double Kd = 0.5;
-  double Ki = 0.3;
-  double dt = 0.4;
+  double Kp;
+  double Kd;
+  double Ki;
+  double dt; 
 
  public:
   /**

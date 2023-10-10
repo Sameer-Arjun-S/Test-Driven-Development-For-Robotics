@@ -15,11 +15,12 @@
 #include <memory>
 #include "../include/pid_controller.hpp"
 
-pid_controller control(2, 0, 0, 0.1);
+
 /**
  *@brief Test for a proportional controller
  */
 TEST(PIDTest, test_compute_kp) {
+  pid_controller control(2, 0, 0, 0.1);
   EXPECT_NEAR(control.compute(5.0, 7.0), -4.0, 0.0001);
 }
 
@@ -27,5 +28,6 @@ TEST(PIDTest, test_compute_kp) {
  *@brief This tests if dt is a value of 0 or not
  */
 TEST(PIDTest, test_dt) {
+  pid_controller control;
   EXPECT_GT(control.returndt(), 0);
 }

@@ -17,7 +17,12 @@
 /**
  * @brief Constructs pid_controller class instance with default provided values
  */
-pid_controller::pid_controller() {}
+pid_controller::pid_controller() {
+  Kp = 0.0;
+  Ki = 0.0;
+  Kd = 0.0;
+  dt = 1.0;
+}
 
 /**
  * @brief Constructs the pid_controller object with taking inputs from user
